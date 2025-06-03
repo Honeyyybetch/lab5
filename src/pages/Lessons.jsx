@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react';
 import { FaCheck, FaClock } from 'react-icons/fa';
 import { getLessons } from '../services/lessons';
-import Loader from '../components/Loader';
+import Loader from '../components/loader';
 
 const Lessons = () => {
   const [completedLessons, setCompletedLessons] = useState([]);
