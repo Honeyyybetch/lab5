@@ -1,7 +1,7 @@
 import { Navigate } from 'react-router-dom';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { auth } from '../firebase';
-import Loader from './Loader';
+import Loader from './loader';
 
 const ProtectedRoute = ({ children }) => {
   const [user, loading] = useAuthState(auth);
